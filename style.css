@@ -1,0 +1,61 @@
+p {
+    background-color: yellow;
+}
+
+.special {
+    font-size: 24px;
+}
+
+div .highligh {
+    background-color: green;
+}
+
+a[href] {
+    color: violet;
+}
+
+img[src$=".jpeg"] {
+    border: solid 2px red;
+    width: 300;
+}
+
+a:hover {
+    background-color: orange;
+}
+
+p::first-line {
+    font-weight: bold;
+}
+
+li:first-child {
+    font-style: italic;
+}
+
+input[type="text"]:focus{
+    border: 2px solid blue;
+}
+
+/*tambien vale un icono normal, en Windows es: Windows + .*/
+.warning::before {
+    content: "\26A0"; 
+}
+
+p:last-child {
+    background-color: red;
+}
+
+.note::after {
+    content: "🗒️";
+}
+
+a:visited {
+    color: grey;
+}
+
+.quote::first-line {
+    color: blue;
+}
+
+li:nth-child(odd){
+    font-weight: bold;
+}
